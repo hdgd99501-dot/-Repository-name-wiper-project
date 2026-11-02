@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.vanta.sysupdate'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.vanta.sysupdate"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
